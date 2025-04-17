@@ -21,6 +21,7 @@ export default function VoiceAssistant() {
       isUser: false,
     },
   ])
+  const API_KEY = "AIzaSyAbs1vgjBl4bORFWaQNlPYeFn7OJ2pqqZw";
   const [voiceOutput, setVoiceOutput] = useState(true)
   const messagesEndRef = useRef<HTMLDivElement>(null)
   const isMobile = useMobile()
