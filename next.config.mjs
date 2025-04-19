@@ -3,7 +3,7 @@ import withPWA from 'next-pwa'
 
 const nextConfig = {
   reactStrictMode: true,
-  swcMinify: true,
+ // swcMinify: true,
   // 👇 Needed for production-ready serverless hosting (Vercel)
   output: 'standalone',
 }
